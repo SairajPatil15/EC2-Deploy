@@ -73,7 +73,7 @@ cd ~/Downloads
 ```bash
 chmod 400 new-key.pem
 ```
-#Connect to the EC2 instance using SSH:
+# Connect to the EC2 instance using SSH:
 
 ```bash
 ssh -i new-key.pem ec2-user@<EC2_PUBLIC_IPV4>
@@ -94,4 +94,15 @@ Install Git:
 ```bash
 sudo yum install git -y
 ```
+# 📦 Clone & Run the Application
+Clone the GitHub repository:
+
+```bash
+git clone https://github.com/SairajPatil15/EC2-Deploy.git
+cd EC2-Deploy
+```
+Install dependencies:
+npm install
+
+
 
