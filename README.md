@@ -118,7 +118,7 @@ Start the application:
 ```bash
 node app.js
 ```
-#🌐 Access the Application
+# 🌐 Access the Application
 Open your browser and visit:
 
 ```bash
@@ -127,7 +127,11 @@ http://<EC2_PUBLIC_IPV4>:3000
 If the security group is configured correctly, the application will be accessible publicly.
 
 👨‍💻 Author
+
+
 Sairaj Patil
+
+
 AWS Cloud & DevOps Enthusiast
 
 
