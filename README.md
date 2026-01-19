@@ -36,6 +36,7 @@ Real-world Node.js deployment
 Linux server administration basics
 End-to-end cloud application hosting
 
+---
 
 ## 🧠 Concepts & AWS Topics Covered
 
@@ -46,6 +47,25 @@ End-to-end cloud application hosting
 - Public IPv4 addressing
 - Linux server setup
 - Application deployment on cloud VM
+
+---
+
+# project architecture is:
+User (Browser)
+     |
+     | HTTP :3000
+     v
+Internet
+     |
+     v
+AWS Security Group
+(Allow 3000, 80, 443)
+     |
+     v
+EC2 Instance (Amazon Linux 2)
+     |
+     v
+Node.js Application (app.js)
 
 ---
 
