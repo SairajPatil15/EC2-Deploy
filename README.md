@@ -29,7 +29,7 @@ This project is designed from a **cloud & placement perspective**, focusing on c
 
 ---
 
-# 🎯 Key Learnings (Placement Perspective)
+# 🎯 Key Learnings 
 Hands-on experience with AWS EC2
 Understanding of cloud networking & security groups
 Real-world Node.js deployment
